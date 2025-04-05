@@ -1,8 +1,8 @@
-setwd("F:/Gilson/Programacao/R")
+setwd("F:/Gilson/Programacao/R/loop_graphics")
 library(ggplot2)
 library(readxl)
 
-d<- read_excel("F:/Gilson/Programacao/R/dados/teste.xlsx")
+d<- read_excel("F:/Gilson/Programacao/R/loop_graphics/data.xlsx")
 d<-as.data.frame(d)
 d[,1]<-as.factor(d[,1])
 
